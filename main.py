@@ -4,6 +4,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import datetime
+#file for storing user details, like password
 import config
 
 now = datetime.datetime.now()
